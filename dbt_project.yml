@@ -1,10 +1,9 @@
-profile: default
-config-version: 2
-
 name: "jaffle_shop"
 version: "3.0.0"
+config-version: 2
 require-dbt-version: ">=2.0.0"
 
+profile: "jaffle_shop"
 
 model-paths: ["models"]
 analysis-paths: ["analyses"]
